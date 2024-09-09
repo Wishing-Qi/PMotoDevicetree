@@ -18,12 +18,12 @@ $(call inherit-product, device/motorola/rtwo/device.mk)
 PRODUCT_DEVICE := rtwo
 PRODUCT_NAME := omni_rtwo
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := Kalama for arm64
+PRODUCT_MODEL := motorola edge 40 pro
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="rtwo-user 13 U1TR34.8-19-11 a7b98 release-keys"
+    PRIVATE_BUILD_DESC="rtwo_g-user 14 U1TRS34.8-30-13-2-2-1 e9abed-dec8fe release-keys"
 
-BUILD_FINGERPRINT := motorola/rtwo/rtwo:13/U1TR34.8-19-11/a7b98:user/release-keys
+BUILD_FINGERPRINT := motorola/rtwo_g/rtwo:14/U1TRS34.8-30-13-2-2-1/e9abed-dec8fe:user/release-keys
